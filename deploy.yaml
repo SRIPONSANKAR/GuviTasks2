@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: test
-        image: surethan37/task2:sample
+        image: sriponsankar/sps:tagname
         imagePullPolicy: Always
         ports:
         - containerPort: 80
           name: http
-          protocol: TCP
+          protocol: TCP
