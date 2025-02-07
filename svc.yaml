@@ -12,4 +12,4 @@ spec:
       port: 80         # Service port (external)
       targetPort: 80   # Container port
       protocol: TCP
-  type: LoadBalancer  # Correct type for external access
+  type: LoadBalancer  # Correct type for external access
